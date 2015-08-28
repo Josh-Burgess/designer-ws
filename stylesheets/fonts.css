@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'metro_blackhplhs';
-    src: url('/fonts/metro_black_hplhs-webfont.eot');
-    src: url('/fonts/metro_black_hplhs-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/metro_black_hplhs-webfont.woff2') format('woff2'),
-         url('/fonts/metro_black_hplhs-webfont.woff') format('woff'),
-         url('/fonts/metro_black_hplhs-webfont.ttf') format('truetype'),
-         url('/fonts/metro_black_hplhs-webfont.svg#metro_blackhplhs') format('svg');
+    src: url('../fonts/metro_black_hplhs-webfont.eot');
+    src: url('../fonts/metro_black_hplhs-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/metro_black_hplhs-webfont.woff2') format('woff2'),
+         url('../fonts/metro_black_hplhs-webfont.woff') format('woff'),
+         url('../fonts/metro_black_hplhs-webfont.ttf') format('truetype'),
+         url('../fonts/metro_black_hplhs-webfont.svg#metro_blackhplhs') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -15,12 +15,12 @@
 
 @font-face {
     font-family: 'work_sans';
-    src: url('/fonts/worksans-bold-webfont.eot');
-    src: url('/fonts/worksans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/worksans-bold-webfont.woff2') format('woff2'),
-         url('/fonts/worksans-bold-webfont.woff') format('woff'),
-         url('/fonts/worksans-bold-webfont.ttf') format('truetype'),
-         url('/fonts/worksans-bold-webfont.svg#work_sansbold') format('svg');
+    src: url('../fonts/worksans-bold-webfont.eot');
+    src: url('../fonts/worksans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/worksans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/worksans-bold-webfont.woff') format('woff'),
+         url('../fonts/worksans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/worksans-bold-webfont.svg#work_sansbold') format('svg');
     font-weight: bold;
     font-style: normal;
 
@@ -28,12 +28,12 @@
 
 @font-face {
     font-family: 'work_sans';
-    src: url('/fonts/worksans-light-webfont.eot');
-    src: url('/fonts/worksans-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/worksans-light-webfont.woff2') format('woff2'),
-         url('/fonts/worksans-light-webfont.woff') format('woff'),
-         url('/fonts/worksans-light-webfont.ttf') format('truetype'),
-         url('/fonts/worksans-light-webfont.svg#work_sanslight') format('svg');
+    src: url('../fonts/worksans-light-webfont.eot');
+    src: url('../fonts/worksans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/worksans-light-webfont.woff2') format('woff2'),
+         url('../fonts/worksans-light-webfont.woff') format('woff'),
+         url('../fonts/worksans-light-webfont.ttf') format('truetype'),
+         url('../fonts/worksans-light-webfont.svg#work_sanslight') format('svg');
     font-weight: 300;
     font-style: normal;
 
@@ -41,12 +41,12 @@
 
 @font-face {
     font-family: 'work_sans';
-    src: url('/fonts/worksans-regular-webfont.eot');
-    src: url('/fonts/worksans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/worksans-regular-webfont.woff2') format('woff2'),
-         url('/fonts/worksans-regular-webfont.woff') format('woff'),
-         url('/fonts/worksans-regular-webfont.ttf') format('truetype'),
-         url('/fonts/worksans-regular-webfont.svg#work_sansregular') format('svg');
+    src: url('../fonts/worksans-regular-webfont.eot');
+    src: url('../fonts/worksans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/worksans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/worksans-regular-webfont.woff') format('woff'),
+         url('../fonts/worksans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/worksans-regular-webfont.svg#work_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -55,35 +55,35 @@
 
 @font-face {
     font-family: 'Intro Rough';
-    src: url('/fonts/introrustg-base2line-webfont.eot');
-    src: url('/fonts/introrustg-base2line-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/introrustg-base2line-webfont.woff2') format('woff2'),
-         url('/fonts/introrustg-base2line-webfont.woff') format('woff'),
-         url('/fonts/introrustg-base2line-webfont.ttf') format('truetype'),
-         url('/fonts/introrustg-base2line-webfont.svg#introrustg-base2line-webfont') format('svg');
+    src: url('../fonts/introrustg-base2line-webfont.eot');
+    src: url('../fonts/introrustg-base2line-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/introrustg-base2line-webfont.woff2') format('woff2'),
+         url('../fonts/introrustg-base2line-webfont.woff') format('woff'),
+         url('../fonts/introrustg-base2line-webfont.ttf') format('truetype'),
+         url('../fonts/introrustg-base2line-webfont.svg#introrustg-base2line-webfont') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Intro Rough';
-    src: url('/fonts/introheadr-base-webfont.eot');
-    src: url('/fonts/introheadr-base-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/introheadr-base-webfont.woff2') format('woff2'),
-         url('/fonts/introheadr-base-webfont.woff') format('woff'),
-         url('/fonts/introheadr-base-webfont.ttf') format('truetype'),
-         url('/fonts/introheadr-base-webfont.svg#introheadr-base-webfont') format('svg');
+    src: url('../fonts/introheadr-base-webfont.eot');
+    src: url('../fonts/introheadr-base-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/introheadr-base-webfont.woff2') format('woff2'),
+         url('../fonts/introheadr-base-webfont.woff') format('woff'),
+         url('../fonts/introheadr-base-webfont.ttf') format('truetype'),
+         url('../fonts/introheadr-base-webfont.svg#introheadr-base-webfont') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Karma';
-    src: url('/fonts/karma-regular-webfont.eot');
-    src: url('/fonts/karma-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/karma-regular-webfont.woff2') format('woff2'),
-         url('/fonts/karma-regular-webfont.woff') format('woff'),
-         url('/fonts/karma-regular-webfont.ttf') format('truetype'),
-         url('/fonts/karma-regular-webfont.svg#karma_regularregular') format('svg');
+    src: url('../fonts/karma-regular-webfont.eot');
+    src: url('../fonts/karma-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/karma-regular-webfont.woff2') format('woff2'),
+         url('../fonts/karma-regular-webfont.woff') format('woff'),
+         url('../fonts/karma-regular-webfont.ttf') format('truetype'),
+         url('../fonts/karma-regular-webfont.svg#karma_regularregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -91,12 +91,12 @@
 
 @font-face {
     font-family: 'Karma';
-    src: url('/fonts/karma-semibold-webfont.eot');
-    src: url('/fonts/karma-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/karma-semibold-webfont.woff2') format('woff2'),
-         url('/fonts/karma-semibold-webfont.woff') format('woff'),
-         url('/fonts/karma-semibold-webfont.ttf') format('truetype'),
-         url('/fonts/karma-semibold-webfont.svg#karmasemibold') format('svg');
+    src: url('../fonts/karma-semibold-webfont.eot');
+    src: url('../fonts/karma-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/karma-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/karma-semibold-webfont.woff') format('woff'),
+         url('../fonts/karma-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/karma-semibold-webfont.svg#karmasemibold') format('svg');
     font-weight: 700;
     font-style: normal;
 

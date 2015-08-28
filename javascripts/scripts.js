@@ -4,6 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
     toggle.addEventListener('click', add_active);
   })
 
+  if (!!location.pathname) {
+    document.head.querySelector('base').setAttribute('href', '/');
+  }
+
   function add_active(e) {
     this.classList.toggle('active');
   }

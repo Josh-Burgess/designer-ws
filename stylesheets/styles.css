@@ -407,7 +407,7 @@ header nav li a {
 }
 .hero {
   height: calc(100vh - 150px);
-  background: url(/images/chicago-pinch.jpg) no-repeat;
+  background: url(../images/chicago-pinch.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
@@ -643,7 +643,7 @@ div.card p {
   margin: 0;
 }
 div.show-off {
-  background: url(/images/team-01.jpg) no-repeat;
+  background: url(../images/team-01.jpg) no-repeat;
   background-size: cover;
   background-position: center top;
   min-height: 80vh;

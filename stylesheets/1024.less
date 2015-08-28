@@ -1,0 +1,101 @@
+﻿@media screen and (max-width: 1024px) {
+
+  html > body {
+    font-size: 18px;
+
+    .hero {
+      h1 {
+        font-size: 19.75vw;
+        line-height: 0.75;
+        top: 40%;
+
+        i {
+          display: block;
+          font-size: 15.5vw;
+        }
+
+        span {
+          font-size: 2.2vw;
+          white-space: normal;
+          top: 100%;
+          line-height: 1;
+        }
+      }
+    }
+
+    .hero ~ .container {
+      div {
+        width: 100%;
+        box-sizing: border-box;
+
+        &.container {
+          font-size: 0;
+        }
+
+        &.card {
+          font-size: 1rem;
+          margin: 15px 0;
+          width: 50%;
+          box-sizing: border-box;
+
+          &:first-child {
+            border-right: none;
+
+            figure {
+              border-radius: 5px 0 0 0;
+            }
+          }
+
+          &:last-child {
+            border-left: none;
+
+            figure {
+              border-radius: 0 5px 0 0;
+            }
+          }
+
+          figure {
+            border-radius: 0;
+
+            img {
+              position: absolute;
+              bottom: 0;
+            }
+          }
+        }
+
+        h1 {
+          font-size: 1.2em;
+          font-weight: normal;
+        }
+      }
+
+      iframe {
+        width: 90%;
+        margin: 0;
+      }
+
+      .our-partners {
+        ul {
+          li {
+            width: 50%;
+          }
+        }
+      }
+
+      div.wow {
+        h1 {
+          font-size: 6.5vw !important;
+        }
+      }
+    }
+
+    div.show-off {
+      h1, p {
+        width: 100%;
+        padding: 0 10vw;
+        box-sizing: border-box;
+      }
+    }
+  }
+}

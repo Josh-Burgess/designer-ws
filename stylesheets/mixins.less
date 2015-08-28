@@ -1,0 +1,87 @@
+﻿@branding-color: #449648;
+@shade-color: #0a492c;
+@link-color: #04adef;
+@dark-color: #070f13;
+@dark-border: #232a2d;
+@mute-color: #8e9599;
+
+@logo-transition: fill 500ms ease-in;
+
+@nav-height: 55px;
+@header-width: 60px;
+@logo-width: 30px;
+
+.transition(@attribute) {
+  -moz-transition: @attribute 500ms ease-in;
+  -o-transition: @attribute 500ms ease-in;
+  -webkit-transition: @attribute 500ms ease-in;
+  transition: @attribute 500ms ease-in;
+}
+
+.reset-list-style() {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.linear-gradient(@top-color, @bottom-color, @rest...) {
+  @other-backgrounds: @rest;
+  background: fadein(@top-color, 70%), @other-backgrounds; /* Old browsers */
+  background: -moz-linear-gradient(top, @top-color 0, @bottom-color 100%), @other-backgrounds; /* FF3.6+ */
+  background: linear-gradient(to bottom, @top-color 0, @bottom-color 100%), @other-backgrounds; /* W3C */
+}
+
+.body-linear-gradient(@top-color, @bottom-color, @rest...) {
+  @other-backgrounds: @rest;
+  background: fade(@top-color, 70%), @other-backgrounds; /* Old browsers */
+  background: -moz-linear-gradient(top, @top-color 85%, @bottom-color 100%), @other-backgrounds; /* FF3.6+ */
+  background: linear-gradient(to bottom, @top-color 85%, @bottom-color 100%), @other-backgrounds; /* W3C */
+}
+
+.picture-linear-gradient(@top-color, @bottom-color, @rest...) {
+  @other-backgrounds: @rest;
+  background: fade(@top-color, 70%), @other-backgrounds; /* Old browsers */
+  background: -moz-linear-gradient(top, @top-color 65%, @bottom-color 100%), @other-backgrounds; /* FF3.6+ */
+  background: linear-gradient(to bottom, @top-color 65%, @bottom-color 100%), @other-backgrounds; /* W3C */
+}
+
+.button-variant(@color; @background; @border) {
+  color: @color;
+  .linear-gradient(@background, darken(@background, 10%));
+  border: solid 1px @border;
+  border-radius: 5px;
+
+  &:hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active,
+  .open > .dropdown-toggle& {
+    color: @color;
+    background-color: darken(@background, 10%);
+    border-color: darken(@border, 12%);
+  }
+  &:active,
+  &.active,
+  .open > .dropdown-toggle& {
+    background-image: none;
+  }
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &,
+    &:hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active {
+      background-color: @background;
+      border-color: @border;
+    }
+  }
+
+  .badge {
+    color: @background;
+    background-color: @color;
+  }
+}

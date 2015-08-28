@@ -1,0 +1,135 @@
+﻿@import "mixins";
+
+@media screen and (max-width: 550px) {
+
+  html > body {
+    font-size: 18px;
+
+    header {
+      nav {
+        ul {
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 500ms ease-in;
+          top: 100%;
+          left: auto;
+          bottom: auto;
+          width: 100%;
+          z-index: 1;
+          transform: none;
+          background-color: lighten(@dark-color, 2%);
+        }
+
+        li {
+          position: relative;
+          display: block;
+          box-sizing: border-box;
+          padding: 0 15px;
+
+          a {
+            display: block;
+            width: 100%;
+            color: inherit;
+            text-decoration: none;
+            height: 100%;
+            line-height: @nav-height;
+            box-sizing: border-box;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+
+    .hero ~ .container {
+      div {
+        h1 {
+          font-size: 1.2em;
+          font-weight: normal;
+        }
+      }
+
+      iframe {
+        width: 100%;
+        margin: 0;
+      }
+
+      .our-partners {
+        ul {
+          li {
+            padding: 20px 0;
+            width: 100% !important;
+          }
+        }
+      }
+
+      figure.headshot {
+        width: 100%;
+        height: 140px;
+        border: none;
+        border-radius: unset;
+
+        img {
+          width: 100%;
+          transform: translate(0, -25%);
+        }
+      }
+    }
+
+    div.card {
+      margin: 0 !important;
+      width: 100% !important;
+      box-sizing: border-box;
+
+      &:first-child {
+        border-right: solid 1px darken(white, 5%);
+      }
+
+      &:last-child {
+        border-left: solid 1px darken(white, 5%);
+      }
+    }
+
+    header.fix {
+      .nav-toggle {
+        span, span:before, span:after {
+          background: @branding-color;
+        }
+      }
+    }
+
+    div.show-off {
+      padding-top: 60vh;
+    }
+
+    .nav-toggle {
+      display: block;
+      left: 15px;
+      bottom: 50%;
+      transform: translate(0, -50%);
+
+      &.active + ul {
+        max-height: 400px;
+      }
+    }
+
+    footer {
+      form {
+        width: 100%;
+
+        h1 {
+          font-size: 1.55em;
+        }
+
+        label.inline {
+          font-size: 0.8em;
+          max-width: 70%;
+          vertical-align: middle;
+        }
+
+        input[type=text] {
+          width: ~"calc(100% - 15px)";
+        }
+      }
+    }
+  }
+}

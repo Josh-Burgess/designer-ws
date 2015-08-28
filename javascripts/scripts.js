@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   })
 
   if (!!location.pathname) {
-    document.head.querySelector('base').setAttribute('href', '/');
+    document.head.querySelector('base').setAttribute('href', '/' + location.pathname);
   }
 
   function add_active(e) {

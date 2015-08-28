@@ -49,6 +49,12 @@
     position: absolute;
     bottom: 0;
   }
+  html > body .hero ~ .container div.banner h1,
+  html > body .hero ~ .container div.banner p {
+    width: 100% !important;
+    padding: 15px;
+    box-sizing: border-box;
+  }
   html > body .hero ~ .container div h1 {
     font-size: 1.2em;
     font-weight: normal;

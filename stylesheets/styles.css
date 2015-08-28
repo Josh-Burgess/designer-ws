@@ -337,6 +337,7 @@ header {
 header.fix {
   position: fixed;
   top: 0;
+  z-index: 2;
   background-color: white;
   border-bottom: solid 1px #f2f2f2;
 }
@@ -840,6 +841,12 @@ div.wow p {
   html > body .hero ~ .container div.card figure img {
     position: absolute;
     bottom: 0;
+  }
+  html > body .hero ~ .container div.banner h1,
+  html > body .hero ~ .container div.banner p {
+    width: 100% !important;
+    padding: 15px;
+    box-sizing: border-box;
   }
   html > body .hero ~ .container div h1 {
     font-size: 1.2em;

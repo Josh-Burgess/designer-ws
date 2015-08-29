@@ -670,19 +670,19 @@ div.wow h1 {
   font-family: 'Intro Rough';
   font-weight: 900;
   line-height: 1;
-  font-size: 6.6vw;
+  font-size: 6vw;
 }
 div.wow h1 i {
   font-style: normal;
   color: #449648;
   display: block;
   line-height: 0.7;
-  font-size: 22.3vw;
+  font-size: 20.5vw;
 }
 div.wow h1 span {
   display: block;
   line-height: 0.8;
-  font-size: 8vw;
+  font-size: 7.3vw;
 }
 div.wow p {
   font-family: work_sans;
